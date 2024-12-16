@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.eveningoutpost.dexdrip",
+  "variantName": "prodRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1603091400,
+      "versionName": "d22b62eee-dev-2024.12.16",
+      "outputFile": "app-prod-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

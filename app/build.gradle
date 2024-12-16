@@ -176,6 +176,27 @@ android {
         enabled = true
     }
 
+    signingConfigs {
+        debug {
+            storeFile file('../ottai_seas.jks')
+            storePassword 'ottai.seas.2024'
+            keyAlias 'ottai_seas'
+            keyPassword 'ottai.seas.2024'
+        }
+        profile {
+            storeFile file('../ottai_seas.jks')
+            storePassword 'ottai.seas.2024'
+            keyAlias 'ottai_seas'
+            keyPassword 'ottai.seas.2024'
+        }
+        release {
+            storeFile file('../ottai_seas.jks')
+            storePassword 'ottai.seas.2024'
+            keyAlias 'ottai_seas'
+            keyPassword 'ottai.seas.2024'
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled true
